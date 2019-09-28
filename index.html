@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CodeReview 03</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<div class="container">
+			
+		<header class="padding-4">
+			<img src="img/logo.png" alt="" id="logo-top">
+			<img src="img/banner.png" alt="" id="banner-top">
+		</header>
+
+
+		<nav>
+			<ul class="ul-nostyle flex">
+				<li class="margin-2"><a href="#" title="" class="white font-size-3">Home</a></li>
+				<li class="margin-2"><a href="team.html" title="" class="white font-size-3">Team</a></li>
+			</ul>
+		</nav>
+
+
+		<div id="content-main" class="padding-4">
+			<h1 class="white font-size-1">Car Insurance</h1>
+
+			<div id="content-input-calculate">
+				<h2 class="font-size-1 text-center">Great coverage begins<br>with a custom quote</h2>
+
+				<div class="content-input-line">
+					<label class="font-size-4">Your name:<input id="input-name" name="name" class="input font-size-3"></label>
+					<label class="font-size-4">Age:<input id="input-age" name="name" class="input font-size-3"></label>
+				</div>
+
+				<div class="content-input-line">
+					<label class="font-size-4">Country:
+						<select id="selection-country" name="country" size="1" class="input font-size-3">
+							<option value="austria">Austria</option>
+							<option value="hungary">Hungary</option>
+							<option value="greece">Greece</option>
+						</select>
+					</label>
+					<label class="font-size-4">Horsepower of your car:<input id="input-horsepower" name="name" class="input font-size-3"></label>
+				</div>
+					
+				<button id="button-calculate" class="button margin-4 font-size-2">Calculate</button>
+
+				<div id="calculation-output" class="margin-4 font-size-2 bold">Your personal calculation</div>
+			</div>
+		</div>
+
+
+		<div id="content-between">
+			<span class="font-size-2 bold">Un-complicating car coverage<br></span>
+
+			<span class="font-size-3">Understanding your coverage options shouldn't be so hard.<br>
+			We'll guide you through available coverage types,<br>
+			starting with who and what is covered</span>
+		</div>
+
+
+		<div id="content-cards">
+			<div class="card">
+				<span class="card-title font-size-3 blue">What comes standard<br></span>
+				<span class="card-subtitle font-size-4">The coverage you need</span>
+				<ul class="card-list">
+					<li class="card-list-item"><div class="check"></div>&nbsp;&nbsp; Bodily Injury Liability</li>
+					<li class="card-list-item"><div class="check"></div>&nbsp;&nbsp; Property Damage</li>
+					<li class="card-list-item"><div class="check"></div>&nbsp;&nbsp; Medical Payments</li>	
+				</ul>
+				<span class="bold font-size-4">Benefits<br></span>
+				<span class="grey font-size-4">12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</span>
+			</div>
+
+			<div class="card">
+				<span class="card-title font-size-3 blue">Add-on protection and coverage<br></span>
+				<span class="card-subtitle font-size-4">For more peace of mind</span>
+				<ul class="card-list">
+					<li class="card-list-item"><div class="check"></div>&nbsp;&nbsp; Better Car Replacement</li>
+					<li class="card-list-item"><div class="check"></div>&nbsp;&nbsp; Towing & Labor</li>
+					<li class="card-list-item"><div class="check"></div>&nbsp;&nbsp; Rental Car Coverage</li>	
+				</ul>
+				<span class="bold font-size-4">Earned Benefits<br></span>
+				<span class="grey font-size-4">Accident Forgiveness<sup>1</sup> | New Car Replacement&trade;</span>
+			</div>
+		</div>
+
+
+		<footer class="padding-3">
+			<ul class="ul-nostyle flex">
+				<li class="margin-2"><a href="#" title="" class="white font-size-4">Home</a></li>
+				<li class="margin-2"><a href="team.html" title="" class="white font-size-4">Team</a></li>
+			</ul>
+
+			<img src="img/logo-inv.png" alt="" class="margin-3 align-self-end" id="logo-bottom">
+
+			<p class="white margin-3 font-size-5 align-self-center">Christian Dangl - CodeFactory 2019</p>
+		</footer>
+
+	</div>
+
+	<script type="text/javascript"  src="data/data.json"></script>
+  	<script src="js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</body>
+</html>
